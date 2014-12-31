@@ -1,0 +1,18 @@
+{
+    "name": "drabajs/phar-maker",
+    "description": "PHP library for creating phar files.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jakub Drabik"
+        }
+    ],
+    "require": {
+        "drabajs/php-minify": "dev-master"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "minimum-stability": "dev",
+    "bin": ["bin/php-maker"]
+}
