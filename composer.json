@@ -13,6 +13,5 @@
     "autoload": {
         "classmap": ["src/"]
     },
-    "minimum-stability": "dev",
     "bin": ["bin/php-maker"]
 }
